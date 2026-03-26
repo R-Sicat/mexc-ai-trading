@@ -2,18 +2,18 @@
 ccxt==4.3.95
 
 # Data manipulation
-pandas==2.2.2
-numpy==1.26.4
-pyarrow==16.0.0
+pandas>=2.2.2
+numpy>=2.2.6
+pyarrow>=16.0.0
 
 # Technical indicators
-ta==0.11.0
-pandas-ta==0.4.67b0
+ta>=0.11.0
+pandas-ta>=0.4.67b0
 
 # Machine learning
-xgboost==2.1.1
-scikit-learn==1.5.0
-imbalanced-learn==0.12.3
+xgboost>=2.1.1
+scikit-learn>=1.8.0
+imbalanced-learn>=0.13.0
 shap==0.45.1
 joblib==1.4.2
 optuna==3.6.1

@@ -109,7 +109,7 @@ def train(df_raw: pd.DataFrame, version: str = None) -> dict:
     final_xgb = xgb.XGBClassifier(
         n_estimators=300, max_depth=6, learning_rate=0.05,
         subsample=0.8, colsample_bytree=0.8,
-        use_label_encoder=False, eval_metric="logloss",
+        eval_metric="logloss",
         random_state=42, n_jobs=-1,
     )
     final_xgb.fit(X_final, y_final, verbose=False)
