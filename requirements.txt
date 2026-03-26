@@ -1,0 +1,48 @@
+# Exchange connectivity
+ccxt==4.3.95
+
+# Data manipulation
+pandas==2.2.2
+numpy==1.26.4
+pyarrow==16.0.0
+
+# Technical indicators
+ta==0.11.0
+pandas-ta==0.3.14b0
+
+# Machine learning
+xgboost==2.1.1
+scikit-learn==1.5.0
+imbalanced-learn==0.12.3
+shap==0.45.1
+joblib==1.4.2
+optuna==3.6.1
+
+# Sentiment / NLP
+transformers==4.41.2
+torch==2.3.0
+vaderSentiment==3.3.2
+newsapi-python==0.2.7
+
+# Async / networking
+aiohttp==3.9.5
+aiosqlite==0.20.0
+httpx==0.27.0
+
+# Config and validation
+pydantic==2.7.1
+pydantic-settings==2.3.1
+python-dotenv==1.0.1
+PyYAML==6.0.1
+
+# Structured logging
+structlog==24.2.0
+rich==13.7.1
+
+# Scheduling
+APScheduler==3.10.4
+
+# Testing
+pytest==8.2.0
+pytest-asyncio==0.23.7
+pytest-mock==3.14.0
